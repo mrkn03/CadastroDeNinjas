@@ -42,52 +42,57 @@ O sistema permite o cadastro de ninjas, a criação de missões e a associação
    ```bash
    git clone https://github.com/mrkn03/CadastroDeNinjas.git
    ```
-2. **Acesse o diretório do projeto:**
 
-  ```bash
-  cd CadastroDeNinjas
-  ```
+2. **Acesse o diretório do projeto:**
+   ```bash
+   cd CadastroDeNinjas
+   ```
 
 3. **Construa o projeto:**
-
-  ```bash
-  mvn clean install
-  ```
+   ```bash
+   mvn clean install
+   ```
 
 4. **Inicie a aplicação:**
-
-```bash
-mvn spring-boot:run
-```
+   ```bash
+   mvn spring-boot:run
+   ```
 
 5. **Acesse a aplicação no navegador:**
+   - URL: [http://localhost:8080](http://localhost:8080/)
 
- ```bash
-  URL: http://localhost:8080
-```
-  
+---
+
 ## 📊 Design do Banco de Dados
-Tabela Ninja:
-id (PK): Identificador único do ninja.
-nome: Nome do ninja.
-idade: Idade do ninja.
-email: Email do ninja.
-rank: Rank do ninja.
-Tabela Missão:
-id (PK): Identificador único da missão.
-titulo: Título da missão.
-descricao: Descrição detalhada da missão.
-Relacionamento:
-Um ninja pode estar associado a uma única missão.
-Uma missão pode ser atribuída a vários ninjas.
+
+- **Tabela Ninja**:
+  - `id` (PK): Identificador único do ninja.
+  - `nome`: Nome do ninja.
+  - `idade`: Idade do ninja.
+  - `email`: Email do ninja.
+  - `rank`: Rank do ninja.
+- **Tabela Missão**:
+  - `id` (PK): Identificador único da missão.
+  - `titulo`: Título da missão.
+  - `descricao`: Descrição detalhada da missão.
+- **Relacionamento**:
+  - Um ninja pode estar associado a uma única missão.
+  - Uma missão pode ser atribuída a vários ninjas.
+
+---
 
 ## 📂 Repositório no GitHub
-O código-fonte do projeto está disponível em:
-🔗 GitHub - CadastroDeNinjas
+
+O código-fonte do projeto está disponível em:  
+🔗 [GitHub - CadastroDeNinjas](https://github.com/mrkn03/CadastroDeNinjas)
+
+---
 
 ## 📌 Notas Finais
-Este projeto é uma excelente oportunidade para aprender:
 
-Desenvolvimento Java com Spring Boot.
-Boas práticas de banco de dados.
-Uso de ferramentas como Flyway, Docker, e Maven.
+Este projeto é uma excelente oportunidade para aprender:
+- Desenvolvimento Java com **Spring Boot**.
+- Boas práticas de banco de dados.
+- Uso de ferramentas como **Flyway**, **Docker**, e **Maven**.
+
+Explore, aprenda e contribua! 😊
