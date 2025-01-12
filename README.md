@@ -41,25 +41,32 @@ O sistema permite o cadastro de ninjas, a criação de missões e a associação
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/mrkn03/CadastroDeNinjas.git
-Acesse o diretório do projeto:
+   ```
+2. **Acesse o diretório do projeto:**
 
-bash
-Copiar código
-cd CadastroDeNinjas
-Construa o projeto:
+  ```bash
+  cd CadastroDeNinjas
+  ```
 
-bash
-Copiar código
-mvn clean install
-Inicie a aplicação:
+3. **Construa o projeto:**
 
-bash
-Copiar código
+  ```bash
+  mvn clean install
+  ```
+
+4. **Inicie a aplicação:**
+
+```bash
 mvn spring-boot:run
-Acesse a aplicação no navegador:
+```
 
-URL: http://localhost:8080
-📊 Design do Banco de Dados
+5. **Acesse a aplicação no navegador:**
+
+ ```bash
+  URL: http://localhost:8080
+```
+  
+## 📊 Design do Banco de Dados
 Tabela Ninja:
 id (PK): Identificador único do ninja.
 nome: Nome do ninja.
