@@ -17,6 +17,7 @@ public class NinjaModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column (name = "id_ninja")
     private Long id;
 
     @Column (name = "nome_ninja")

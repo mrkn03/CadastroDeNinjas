@@ -18,6 +18,7 @@ public class MissoesModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column (name = "id_missoes")
     private Long id;
 
     @Column (name = "nome_missao")
