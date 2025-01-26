@@ -3,6 +3,7 @@ package com.example.CadastroDeNinjas.Missoes;
 import com.example.CadastroDeNinjas.Ninjas.NinjaModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Cleanup;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -19,8 +20,10 @@ public class MissoesModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column (name = "nome_missao")
     private String nome;
 
+    @Column (name = "dificuldade_missao")
     private String dificuldade;
 
     /* @OneToMany - uma missao pode ter varios ninjas*/
